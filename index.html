@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <!--<li><a href="index.html">Home</a></li>-->
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="contact">
+        <div id="contactlogos">
+            <a href="mailto:dv8@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a><br>
+            <a href="https://www.linkedin.com/in/deepa-varghese" target="_blank"><i class="fab fa-linkedin-in"></i></a><br>
+            <a href="https://github.com/deepa-varghese-88" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+    <div id="hello" class="contents">
+        <div class="section intro">
+                <div id="hellotext">HE<br>
+                    LL<br>
+                    O.</div>
+                <div id="introtext">
+                    <span id="intro1">My name is,</span><br>
+                    <div id="intro2"><h1>Deepa Varghese.</h1></div><br>
+                    <span id="intro3">I'm a Software Developer.</span><br>
+                    <span id="intro4"><i>The Storytelling kind.</i></span>
+                </div>
+        </div>
+    </div>
+    <div id="about" class="contents">
+        <div class="section about">
+            <div id="aboutimg">
+                <img src="css/images/myimage.jpg" alt="Deepa's picture">
+            </div>
+            <div id="abouttext">
+                <div id="abouttext1" class="abtxt">
+                    I'm a driven and dynamic Graduate student, with an affinity to data and a keen interest in user-centered innovation.
+                </div>
+                <div id="abouttext2" class="abtxt">
+                    <b>MS in Computer Science</b><br>
+                    September 2018 - December 2020<br>
+                    <i><a href="https://www.pdx.edu/cecs/home" target="_blank">Portland State University</a></i><br>
+                    GPA - 3.91/4<br><br>
+                    <b>BS in Computer Science</b><br>
+                    July 2009 - June 2013<br>
+                    <i><a href="https://www.karunya.edu/cse" target="_blank">Karunya University</a></i><br>
+                    GPA -7.95/10
+                </div>
+                <div id="abouttext3" class="abtxt">
+                    Skills:
+                    <ul>
+                        <li>Python, Java, Scala</li>
+                        <li>Machine Learning, AI</li>
+                        <li>UI / UX / HCI</li>
+                        <li>HTML, CSS, React</li>
+                        <li>Node.js, Express</li>
+                        <li>SQL (PostgreSQL, MSSQL, Oracle)</li>
+                        <li>NoSQL (MongoDB)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects" class="contents">
+        <div class="section projects">
+            <div id="projectstitle">Some of my projects</div>
+            <div id="projectsnav">
+                <ul>
+                    <li><a href="#MLAI">ML/AI</a></li>
+                    <li><a href="#CodingAL">Coding and Algorithms</a></li>
+                    <li><a href="#UX">UI/UX</a></li>
+                    <li><a href="#Software">Software Dev</a></li>
+                    <li><a href="#Databases">Database</a></li>
+                </ul>
+            </div>
+
+            <div id="MLAI" class="projectlist">
+                <div class="projectblock">
+                    <img src="css/images/8queens.png" alt="8 queens problem">
+                    <div class="proj">Genetic Algorithms -> 8 queens problem<br><span class="course">AI</span><br><span class="tech">Python</span></div>
+                    <div class="overlay">
+                        Genetic Algorithms were used to create a program that can solve the 8 queens problem, with the following variations to analyse options against each other.
+                            <ul>
+                                <li>randomly mutating child individuals to cause high mutation probabiliy</li>
+                                <li>constant v randomly generated crossover point</li>
+                                <li>high v low population sizes</li>
+                            </ul>
+                        <div class="icon"><a href="https://github.com/deepa-varghese-88/Algorithms" target="_blank"><i class="fas fa-external-link-square-alt"></i></a></div>
+                    </div>
+                </div>
+
+                <div class="projectblock">
+                    <img src="css/images/8puzzle.png" alt="8 and 15 puzzle">
+                    <div class="proj">BFS and A* -> 8 and 15 puzzle<br><span class="course">AI</span><br><span class="tech">Python</span></div>
+                    <div class="overlay">
+                        The BFS Algorithm and the A* Algorithm were implemented to solve the 8 puzzle and the 15 puzzle problems. The three heuristics used for each of the four resultant scenarios were:
+                        <ul>
+                            <li>Manhattan distance</li>
+                            <li>Euclidean distance</li>
+                            <li>Misplaced Tiles</li>
+                        </ul>
+                        <div class="icon"><a href="https://github.com/deepa-varghese-88/AI-8-15-puzzle-BFS-Astar" target="_blank"><i class="fas fa-external-link-square-alt"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="CodingAL" class="projectlist">
+                <div class="projectblock">
+                    <img src="css/images/algo.PNG" alt="algorithmic analysis">
+                    <div class="proj">Theoretical and empirical analysis<br><span class="course">Algorithms</span><br><span class="tech">Python</span></div>
+                    <div class="overlay">
+                        Three Algorithms:
+                        <ul>
+                            <li>Brute Force<br>[Time Complexity: O(n3), Space Complexity: O(1)]</li>
+                            <li>Dynamic Programming<br>[Time Complexity: O(n2), Space Complexity: O(n2)]</li>
+                            <li>Manacher's Algorithm<br>[Time Complexity: O(n), Space Complexity: O(n)]</li>
+                        </ul>
+                        ... were theoretically analysed to calculate the expected time and space complexities, and empirically run for varying string and palindrome sizes to confirm the complexities and compare their results.
+                        <div class="icon"><a href="https://github.com/deepa-varghese-88/Algorithms" target="_blank"><i class="fas fa-external-link-square-alt"></i></a></div>
+                    </div>
+                </div>
+                <div class="projectblock">
+                    <img src="css/images/irc.jpg" alt="IRC">
+                    <div class="proj">Internet Chat Relay<br><span class="course">Internetworking protocols</span><br><span class="tech">Python</span></div>
+                    <div class="overlay">
+                        A basic Python multithreading program, in the client server model, with one always-on server, and multiple clients.
+                        <div class="icon"><a href="https://github.com/deepa-varghese-88/IRC-chatapp-basic" target="_blank"><i class="fas fa-external-link-square-alt"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div id="UX" class="projectlist">
+                <div class="projectblock">
+                    <img src="css/images/hci.PNG" alt="In store shopping experience">
+                    <div class="proj">In store shopping exp - app design<br><span class="course">HCI</span></div>
+                    <div class="overlay">
+                        A project in User experience Design and analysis. The milestones achieved were:
+                        <ul>
+                            <li>User Research: Ethnographic participant observation and interviews</li>
+                            <li>Data Analysis: Affinity Diagram and Relational Map</li>
+                            <li>Design: Brainstorming and Storyboarding</li>
+                            <li>Prototyping: sketching (low-fidelity prototype)</li>
+                            <li>Evaluation: Cognitive Walkthrough and Think-Aloud evaluations</li>
+                        </ul>
+                        <div class="icon"><a href="https://github.com/deepa-varghese-88/HCI-Project-InStoreShopping" target="_blank"><i class="fas fa-external-link-square-alt"></i></a></div>
+                    </div>
+                </div>
+                <div class="projectblock">
+                    <img src="css/images/careerfairnavigation.gif" alt="career fair navigation">
+                    <div class="proj">Career Fair Navigation Website<br><span class="course">Full Stack Web Dev</span><br><span class="tech">HTML, CSS, Javascript</span></div>
+                    <div class="overlay">
+                        (ongoing)<br>
+                        A Full Stack Web Dev Project to create a website that allows PSU students to navigate through the Career fair
+                        <div class="icon"><a href="" target="_blank"><i class="fas fa-seedling"></i></a></div>
+                    </div>
+                </div>
+                <div class="projectblock">
+                    <img src="css/images/autocomplete.jpg" alt="autocomplete and autocorrect">
+                    <div class="proj">Computer aided writing tech's impact on human interactions<br><span class="course">User Research Methods</span></div>
+                    <div class="overlay">
+                        (ongoing)<br>
+                        Qualitative Research on how Autocomplete and Autocorrect are shaping human interactions.
+                        <div class="icon"><a href="" target="_blank"><i class="fas fa-seedling"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div id="Software" class="projectlist">
+                <div class="projectblock">
+                    <img src="css/images/monitoring.PNG" alt="monitoring">
+                    <div class="proj">Monitoring on django website<br><span class="course">Site Reliability Engineering</span><br><span class="tech">Elasticsearch -> Kibana -> Filebeats</span></div>
+                    <div class="overlay">
+                        Set up monitoring for a Python Django Website, which was hosted on GCP with nginx and gunicorn. Set up dedicated VM for monitoring (with ElasticSearch and Kibana) so as not to overload the Main Server hosting the website. Filebeats was set up in the main server which also consisted of the main PostgreSQL as well as the VM with the PostgreSQL Standby VM.  
+                        <div class="icon"><a href="https://github.com/deepa-varghese-88/SRE-Monitoring" target="_blank"><i class="fas fa-external-link-square-alt"></i></a></div>
+                    </div>
+                </div>
+                <div class="projectblock">
+                    <img src="css/images/bubbletea.PNG" alt="bubletea store locator">
+                    <div class="proj">Bubble Tea Store Locator<br><span class="course">Internet and Cloud Systems</span><br><span class="tech">Python Flask, GCP, App Engine, ML APIs</span></div>
+                    <div class="overlay">
+                        A Bubble Tea Store Locator website was created using Python Flask (MVP framework), nginx and gunicorn, and hosted on GCP's App Engine (thus serverless), with 6 ML APIs
+                        <ul>
+                            <li>GCP's Vision API</li>
+                            <li>GCP's Places API</li>
+                            <li>GCP's Natural Language Processing API</li>
+                            <li>GCP's Translate API</li>
+                            <li>Accuweather's Weather API</li>
+                            <li>Nutritionix API</li>
+                        </ul>
+                        <div class="icon"><a href="https://github.com/deepa-varghese-88/BubbleTeaStore-GPCAppEngine" target="_blank"><i class="fas fa-external-link-square-alt"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div id="Databases" class="projectlist">
+                <div class="projectblock">
+                    <img src="css/images/sqlvnosql.PNG" alt="SQL v NoSQL">
+                    <div class="proj">Complex Queries, SQL v NoSQL<br><span class="course">Cloud and Clusters</span><br><span class="tech">MongoDB, PostgreSQL</span></div>
+                    <div class="overlay">
+                        Analysis of NoSQL's complex queries and comparison with SQL's counterparts. Comparison was done on the basis of time performance, with and without indexes. Dataset used: IMDB data (actors, roles, movies)
+                        <div class="icon"><a href="https://github.com/deepa-varghese-88/CloudAndCluster-SQLvNoSQL" target="_blank"><i class="fas fa-external-link-square-alt"></i></a></div>
+                    </div>
+                </div>
+                <div class="projectblock">
+                    <img src="css/images/freeway2.png" alt="Freeway data analysis">
+                    <div class="proj">Data Modeling, Analysis (Freeway Data)<br><span class="course">Cloud and Clusters</span><br><span class="tech">MongoDB, Python</span></div>
+                    <div class="overlay">
+                        Developed a data model that was optimum for sharding. Performed:
+                        <ul>
+                            <li>ETL (using Python) where initial data cleansing was also done</li>
+                            <li>Data Cleaning (in MongoDB)</li>
+                            <li>Data Analysis (querying in Mongodb, and scripts in Java) to draw conclusions about Freeway traffic in Portland for 2 Highways.</li>
+                        </ul>
+                        <div class="icon"><a href="https://github.com/deepa-varghese-88/CloudAndCluster-DataModelingAndAnalysis" target="_blank"><i class="fas fa-external-link-square-alt"></i></a></div>
+                    </div>
+                </div>
+                <div class="projectblock">
+                    <img src="css/images/hp.PNG" alt="Harry Potter data analysis">
+                    <div class="proj">Data Modeling, Analysis (Harry Potter)<br><span class="course">Relational Databases</span><br><span class="tech">PostgreSQL</span></div>
+                    <div class="overlay">
+                        Developed ERP data model and implemented a POSTGRESQL database, and scripted complex SQL queries (Groupby, Merge, subquery, joins)
+                        <div class="icon"><a href="https://github.com/deepa-varghese-88/RelDB-DataModelingAndAnalysis" target="_blank"><i class="fas fa-external-link-square-alt"></i></a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div id="contact">
+            GET IN TOUCH! 
+            <div id="contactcontainer">
+                <div class="contactitem"><a href="mailto:dv8@gmail.com" target="_blank">Email: <i class="fas fa-envelope"></i></a></div>
+                <div class="contactitem"><a href="https://www.linkedin.com/in/deepa-varghese" target="_blank">LinkedIn: <i class="fab fa-linkedin-in"></i></a></div>
+                <div class="contactitem"><a href="https://github.com/deepa-varghese-88" target="_blank">Github: <i class="fab fa-github"></i></a></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
