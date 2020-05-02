@@ -43,6 +43,12 @@ a:hover {
   /* background-color: lightgray; */
 }
 
+@media (max-width: 414px) {
+  nav {
+    justify-content: center;
+  }
+}
+
 /*--------------------CONTACT SIDEBAR--------------*/
 
 .contact {
