@@ -153,6 +153,15 @@ a:hover {
   font-weight: bold;
 }
 
+@media (max-width: 414px) {
+  .intro {
+    display: inline-block;
+  }
+  #hellotext {
+    display: none;
+  }
+}
+
 /*-----------------------ABOUT------------------*/
 .about {
   display: grid;
