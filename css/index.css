@@ -98,19 +98,13 @@ a:hover {
 /*--------------CONTENTS OF EACH SECTION-----------*/
 
 .contents {
-  width: 90%;
   margin: 10rem auto;
   padding: 2rem;
 }
 
-.contents::before {
-  width: 100%;
-  background-image: url(images/wish_birds.jpg);
-}
-
 .section {
   width: 90%;
-  margin: 5em;
+  margin: 5em auto;
 }
 
 /*-------------------------HELLO------------------*/
