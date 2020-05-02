@@ -17,6 +17,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   position: fixed;
+  background-color: white;
 }
 
 nav > a > div {
